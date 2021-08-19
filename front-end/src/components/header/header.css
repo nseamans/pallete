@@ -1,0 +1,88 @@
+/* 
+font-family: 'Lexend', sans-serif;
+font-family: 'Lexend Giga', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Share Tech Mono', monospace; 
+*/
+a.logoHeader {
+    font-family: 'Nanum Myeongjo', serif ;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.navbar{
+  font-family: 'Lexend Giga', sans-serif;
+  padding-bottom: 1em;
+  /* background-color: #EEE; */
+  /* box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24); */
+}
+
+.navinput{
+    width: 8em;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #7180AC;
+    transition: border-width 2s;
+}
+
+.btnlogin{
+    color: #F8FFF4 !important;
+    background-color: #7180AC;
+}.btnlogin:hover{
+    -webkit-animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.selectstyle{
+  border-radius: 0px !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+  border-width: 1px;
+  padding-left: 1em;
+  padding-right: 1em;
+}.selectstyle:focus{
+  box-shadow: none !important;
+}
+
+.reglogin{
+    color: #F8FFF4 !important;
+    background-color: #8373AF
+}.reglogin:hover{
+    -webkit-animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #C0C0C0, 0 0 #C0C0C0, 0 0 #C0C0C0;
+              box-shadow: 0 0 #C0C0C0, 0 0 #C0C0C0, 0 0 #C0C0C0;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #C0C0C0, 2px -2px #C0C0C0;
+              box-shadow: 1px -1px #C0C0C0, 2px -2px #C0C0C0;
+      -webkit-transform: translateX(-2px) translateY(2px);
+              transform: translateX(-2px) translateY(2px);
+    }
+  }
+  @keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #C0C0C0, 0 0 #C0C0C0, 0 0 #C0C0C0;
+              box-shadow: 0 0 #C0C0C0, 0 0 #C0C0C0, 0 0 #C0C0C0;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #C0C0C0, 2px -2px #C0C0C0;
+              box-shadow: 1px -1px #C0C0C0, 2px -2px #C0C0C0;
+      -webkit-transform: translateX(-2px) translateY(2px);
+              transform: translateX(-2px) translateY(2px);
+    }
+  }
+  

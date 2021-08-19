@@ -1,0 +1,92 @@
+
+POST http://localhost:5000/users/submit HTTP/1.1
+Content-Type: application/json 
+
+{
+    "name": "JohhnyBoy",
+    "email": "John@re.com",
+    "password": "JOHNJohn",
+    "password2": "JOHNJohn"
+}
+
+###
+
+POST http://localhost:5000/users/login HTTP/1.1
+Content-Type: application/json 
+
+{
+    "email": "n@rad.edu",
+    "password": "Vision123"
+}
+
+###
+
+POST http://localhost:5000/users/testuser HTTP/1.1
+Content-Type: application/json 
+{
+    "email": "n@rad.edu",
+    "password": "Vision123"
+}
+
+
+###
+
+GET http://localhost:5000/users/logout HTTP/1.1
+Content-Type: application/json 
+
+###
+
+POST http://localhost:5000/colors/create_scheme HTTP/1.1
+Content-Type: application/json 
+
+{
+    "CategoryID": 10,
+    "SchemeName": "Test2",
+    "SchemeDescription": "BLAH BLAH",
+    "Color1ID": "#444444",
+    "Color2ID": "#444444",
+    "Color3ID": "#444444",
+    "Color4ID": "#444444",
+    "Color5ID": "#444444",
+    "Color6ID": "#444444",
+    "Color7ID": "#444444"
+}
+
+###
+
+POST http://localhost:5000/colors/update_scheme HTTP/1.1
+Content-Type: application/json 
+
+{
+    "CategoryID": 10,
+    "SchemeName": "Test2",
+    "SchemeDescription": "BLAH BLAH BlAH",
+    "Color1ID": "#444444",
+    "Color2ID": "#444444",
+    "Color3ID": "#444444",
+    "Color4ID": "#444444",
+    "Color5ID": "#444444",
+    "Color6ID": "#444444",
+    "Color7ID": "#444444"
+}
+
+###
+
+POST http://localhost:5000/colors/delete_scheme HTTP/1.1
+Content-Type: application/json 
+
+{
+    "SchemeName": "Test2"
+}
+
+###
+
+Get http://localhost:5000/colors/find_scheme_by_session HTTP/1.1
+Content-Type: application/json 
+
+###
+
+Get http://localhost:5000/colors/get_schemes HTTP/1.1
+Content-Type: application/json 
+
+###

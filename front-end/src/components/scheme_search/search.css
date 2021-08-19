@@ -1,0 +1,93 @@
+.flex-container {
+    display: flex;
+}
+
+.heromessage{
+    background-color: #4E4E50;
+    text-align: center;
+    color:white !important;
+    padding: 3em;
+    margin: auto;
+    min-height: 10em;
+}
+
+.heromessage-text{
+    color:white !important;
+}
+
+.heroexptext{
+    color: #4E4E50;
+}
+
+.btnsearch{
+    color: #F8FFF4;
+    background-color: #7180AC;
+}.btnsearch:hover{
+    color: #F8FFF4;
+    -webkit-animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.copyDiv{
+    background-color: #4E4E50;
+    color: white;
+    padding-top: .25em;
+    padding-left: .5em;
+    padding-right: .25em;
+    padding-bottom: .25em;
+}
+
+.colorbar{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.boxtext{
+    color: white !important;
+ }
+
+.menuchoice{
+    min-width: 20em;
+}
+
+.page-item, .page-link{
+    border-radius: 0px !important;
+    color: #7180AC;
+    text-align: center;
+    cursor: pointer;
+    min-width: 5em;
+}.page-item:hover, .page-link:hover{
+    background-color: #7180AC;
+    color: white;
+}
+
+.pagecount{
+    text-align: right;
+    padding-top: 1em;
+}
+
+.searchwindow_results{
+    height: 25em;
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7180AC;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7180AC;
+}

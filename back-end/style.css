@@ -1,0 +1,70 @@
+/* colors
+    f2545b
+    E9E3E6
+    605856
+    2AB7CA
+    7371FC
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+ .background{
+   border-radius: 0px !important;
+   font-family: 'Work Sans', sans-serif;
+   color: #605856;
+ }
+ 
+ h1, h2, h3, h4, h5, h6, p{
+   color: #605856;
+ }
+ 
+ .hero{
+   padding-top: 3em;
+   padding-bottom: 1em;
+   background-color: #f2545b;
+   border-radius: 0px;
+   margin-bottom: 1.5em;
+ }
+ 
+ .herotext{
+   color: #E9E3E6 !important;
+ }
+ 
+ .technologylist{
+   margin-top: 1em;
+ }
+ 
+ .list-group{
+   border-radius: 0px !important;
+   background-color: #f2545b !important;
+   font-family: 'Work Sans', sans-serif;
+   color: #605856 !important;
+ }
+ 
+ .roadmapcontainer{
+   overflow-y: scroll;
+   height: 10em;
+ }
+ 
+ .btn-secondary{
+   border-radius: 0px !important;
+ }
+ 
+ /* width */
+ ::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1; 
+ }
+  
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #888; 
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #555; 
+ }

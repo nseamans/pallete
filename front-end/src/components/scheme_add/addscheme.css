@@ -1,0 +1,28 @@
+.searchwindow{
+    height: 40em;
+    overflow-y: scroll;
+}
+
+.boxtext{
+   color: white !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7180AC;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7180AC;
+}

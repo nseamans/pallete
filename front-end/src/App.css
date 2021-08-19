@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Lexend:wght@300;400&family=Nanum+Myeongjo:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+body{
+  background-color: white;
+  background: repeating-linear-gradient( 45deg, #eff1f6, #eff1f6 3.5px, white 3.5px, white 17.5px );
+  overflow-x: hidden;
+  font-family: 'Lexend', sans-serif !important;
+  background-color: white;
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4E4E50;
+  padding-bottom: .10em;
+  font-family: 'Lexend', sans-serif !important;
+}
+
+p {
+  color: #4E4E50;
+  font-family: 'Lexend', sans-serif !important;
+}
+
+.app-wrapper{
+  opacity: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: white;
+  height: 90vh;
+}
+
+code {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.form-control, .btn{
+  font-family: 'Lexend', sans-serif !important;
+  border-radius: 0px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1) !important;
+}
+
+.card{
+  border-radius: 0px !important;
+}
+
+.menulogin{
+    color: #F8FFF4 !important;
+    background-color: #7180AC;
+    border-style: none;
+    height: 2em;
+}.menulogin:hover{
+    -webkit-animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.editmenubutton{
+    color: #F8FFF4;
+    background-color: #7180AC;
+    text-align: left;
+    border: none;
+    padding-top: 0.25em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+
+}.editmenubutton:hover{
+    -webkit-animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+              animation: shadow-pop-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}

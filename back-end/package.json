@@ -1,0 +1,33 @@
+{
+  "name": "Palette_Express",
+  "version": "1.0.0",
+  "description": "Back-end for Palette MERN application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Nicholas Seamans",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "Validator": "^1.1.2",
+    "bad-words": "^3.0.4",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "express-content-length-validator": "^1.0.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^5.13.0"
+  }
+}
